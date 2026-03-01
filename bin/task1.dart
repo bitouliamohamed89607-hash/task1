@@ -108,7 +108,7 @@ String nextLevel(int completedLessons, int quizScore) {
 
 // 10 Create a function that receives driver availability, user balance, and trip cost. Ride
 // starts if driver available AND balance ≥ trip cost. Return 'Ride Confirmed' or
-// 'Insufficient Conditions'.
+// 'Insufficient Conditions'.?
 
 String rideRequest(bool driverAvailable, double userBalance, double tripCost) {
   if (driverAvailable && userBalance >= tripCost) {
